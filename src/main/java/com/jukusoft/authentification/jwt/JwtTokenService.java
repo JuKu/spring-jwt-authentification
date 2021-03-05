@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 import java.util.HashMap;
 
-@Profile({"default", "junit-test"})
 //see also: https://gitlab.com/ertantoker/tutorials/spring-boot-security-jwt-example/-/blob/master/spring-boot-authentication-service/src/main/java/de/ertantoker/tutorial/service/JwtTokenService.java
 @Component
 public class JwtTokenService {

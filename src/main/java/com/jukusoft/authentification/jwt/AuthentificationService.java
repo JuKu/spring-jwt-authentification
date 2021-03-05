@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-@Profile({"default", "junit-test"})
 @Service
 public class AuthentificationService {
 
