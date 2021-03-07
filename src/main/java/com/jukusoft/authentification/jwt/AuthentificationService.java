@@ -25,6 +25,7 @@ public class AuthentificationService {
 
     public JWTTokenResponse generateJWTToken(String username, String password) {
         return accountService.loginUser(username, password)
+                .filter(accountDTO -> accountDTO != null)
                 .map(account -> new JWTTokenResponse(jwtTokenService.generateToken(account.getUserID(), username)))
                 .orElseThrow(() -> new UserNotFoundException("Credentials wrong"));
     }
