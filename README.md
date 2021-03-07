@@ -1,6 +1,12 @@
 # spring-jwt-authentification
 A small JWT authentification library to secure Spring Rest APIs with Spring Security
 
+Inspired by these tutorials:
+  - https://ertan-toker.de/spring-boot-spring-security-jwt-token/
+  - https://auth0.com/blog/spring-boot-authorization-tutorial-secure-an-api-java/
+  - https://www.toptal.com/java/rest-security-with-jwt-spring-security-and-java
+  - https://dzone.com/articles/spring-boot-security-json-web-tokenjwt-hello-world
+
 ## Usage
 
 First, add some properties to your `application.properties`:
