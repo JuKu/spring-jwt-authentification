@@ -12,7 +12,6 @@ import java.util.Optional;
 @Service
 public class AuthentificationService {
 
-    @Autowired
     private IAccountService accountService;
 
     private JwtTokenService jwtTokenService;
