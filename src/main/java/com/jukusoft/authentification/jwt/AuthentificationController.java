@@ -24,7 +24,7 @@ public class AuthentificationController {
     @PostMapping("/api/login")
     public ResponseEntity<JWTTokenResponse> login(@RequestBody AuthentificationRequest request) {
         JWTTokenResponse tokenRes = authenticationService.generateJWTToken(request.getUsername(), request.getPassword());
-        logger.info("create new token for user {}", request.getUsername());
+        logger.info("create new token for user '{}'", request.getUsername());
 
         return new ResponseEntity<>(tokenRes, HttpStatus.OK);
     }
