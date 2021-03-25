@@ -2,7 +2,7 @@
 
 A small JWT authentification library to secure Spring Rest APIs with Spring Security
 
-[![Build Status](https://travis-ci.org/spring-jwt-authentification.svg?branch=master)](https://travis-ci.org/spring-jwt-authentification)
+[![Build Status](https://travis-ci.org/JuKu/spring-jwt-authentification.svg?branch=master)](https://travis-ci.org/spring-jwt-authentification)
 
 Inspired by these tutorials:
   - https://ertan-toker.de/spring-boot-spring-security-jwt-token/
