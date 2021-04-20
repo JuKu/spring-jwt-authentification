@@ -13,6 +13,43 @@
 	<version>1.0.1-SNAPSHOT</version>
 	<name>spring-jwt-authentification</name>
 	<description>Demo project for Spring Boot</description>
+	<url>https://github.com/JuKu/spring-jwt-authentification</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git:/github.com/JuKu/spring-jwt-authentification.git</connection>
+		<developerConnection>scm:git:ssh://github.com/JuKu/spring-jwt-authentification.git</developerConnection>
+		<url>https://github.com/JuKu/spring-jwt-authentification</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Justin Kuenzel</name>
+			<email>info@jukusoft.com</email>
+			<organization>none</organization>
+			<organizationUrl>http://jukusoft.com</organizationUrl>
+		</developer>
+	</developers>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
 	<properties>
 		<java.version>11</java.version>
 
